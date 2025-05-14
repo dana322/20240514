@@ -11,12 +11,12 @@ import PdfOperation from "@/app/rotate-pdf/_components/PdfOperation";
 export default function Dashboard() {
   const [pdfFile, setPdfFile] = useState<File | null>(null);
   const schemaData = {
-    "@context": "https://schema.org",
+    "@context": "https://20240514.vercel.app/rotate-pdf",
     "@type": "Article",
     headline: "PDF页面旋转工具 - 在线免费旋转PDF",
     description:
       "简单易用的在线PDF页面旋转工具，支持单页、多页旋转，免费保存，无需注册。",
-    author: { "@type": "Person", name: "PDF工具团队" },
+    author: { "@type": "Person", name: "dana" },
   };
 
   return (
