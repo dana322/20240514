@@ -31,7 +31,7 @@ const PdfDocument = ({
     setIsPdfLoading(false);
   }
 
-  function handlePageLoad(page: any, idx: number) {
+  function handlePageLoad(page: PageSize, idx: number) {
     const { width, height } = page;
     setPageSizes((prev) => {
       const next = [...prev];

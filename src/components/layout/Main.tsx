@@ -1,7 +1,6 @@
 "use client";
 
 import type { PropsWithChildren } from "react";
-import PdfUploadArea from "../../app/rotate-pdf/_components/PdfUploadArea";
 
 export default function Main({ children }: PropsWithChildren) {
   return (

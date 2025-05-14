@@ -1,6 +1,6 @@
 import { PageSize } from "@/types";
-import { Page, pdfjs } from "react-pdf";
-import { RefreshCw, Loader2 } from "lucide-react";
+import { Page } from "react-pdf";
+import { RefreshCw } from "lucide-react";
 import Loading from "@/components/ui/Loading";
 interface PdfThumbnailProps {
   index: number;
@@ -8,7 +8,7 @@ interface PdfThumbnailProps {
   scale: number;
   rotation: number;
   onRotate: (index: number, e?: React.MouseEvent) => void;
-  onPageLoad: (page: any, index: number) => void;
+  onPageLoad: (page: PageSize, index: number) => void;
 }
 
 const PdfThumbnail: React.FC<PdfThumbnailProps> = ({
