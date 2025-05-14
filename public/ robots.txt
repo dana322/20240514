@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://20240514-8wsj.vercel.app/rotate-pdf
