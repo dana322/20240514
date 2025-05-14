@@ -24,6 +24,10 @@ export default function Dashboard() {
       <Head>
         <title>PDF页面旋转工具 - 在线免费旋转PDF</title>
         <meta
+          name="google-site-verification"
+          content="TFep6kGBflKC0tna2TM26LJeEVE2gtTIa7ahd3v2cA8"
+        />
+        <meta
           name="description"
           content="简单易用的在线PDF页面旋转工具，支持单页、多页旋转，免费保存，无需注册。"
         />
